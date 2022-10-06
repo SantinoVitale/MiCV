@@ -31,13 +31,16 @@ body {
 }
 
 .contenedor_img-title {
-    
-    position: absolute;
     left: 0;
     bottom: 0;
     color: rgb(0, 0, 0);
     padding: 0 8px;
     
+}
+.contenedor_img-title img{
+    display: flex;
+    margin: auto;
+    width: 100%;
 }
 
 .texto-icono {
