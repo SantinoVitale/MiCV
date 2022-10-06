@@ -16,7 +16,7 @@ body {
         "columna1 columna2"
         "columna1 columna3"
         "columna1 columna4";
-    grid-template-columns: 15% 55%;
+    grid-template-columns: 20% 55%;
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     padding: 0.7rem 8px;
@@ -116,7 +116,7 @@ h3.linea span {
 .columna1 {
     grid-area: columna1;
     margin: 10px 0;
-    background-color: rgb(255, 186, 177);
+    background-color: rgb(255, 250, 173);
     padding: 8px;
 }
 
@@ -129,7 +129,8 @@ h3.linea span {
     display: grid;
     grid-template-areas: "fecha1 lista1"
         "fecha2 lista2"
-        "fecha3 lista3";
+        "fecha3 lista3"
+        "fecha4 lista4";
     grid-template-columns: 0.3fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
