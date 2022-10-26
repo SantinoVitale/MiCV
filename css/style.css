@@ -189,6 +189,15 @@ h3.linea span {
     margin: 10px 0;
 }
 
+.contenedor-ingles a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor-ingles a:hover{
+    color: #000;
+}
+
 /*MediaQuery*/
 
 @media (max-width:1024px){
